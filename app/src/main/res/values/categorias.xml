@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Each position of id refers to an string array -->
+    <array name="array_categorias">
+        <item>@array/categorias</item>
+        <item>@array/animales</item>
+        <item>@array/deportes</item>
+        <item>@array/eñe_palabras</item>
+        <item>@array/famosos</item>
+        <item>@array/peliculas</item>
+        <item>@array/lugares</item>
+        <item>@array/fruta</item>
+    </array>
+
+        <!--categorias linkeadas desde el Translation Editor -->
+
+    <string-array name="categorias">
+        <item>@string/selcategoria</item>
+        <item>@string/animales</item>
+        <item>@string/deportes</item>
+        <item>@string/eñepalabras</item>
+        <item>@string/famosos</item>
+        <item>@string/peliculas</item>
+        <item>@string/lugares</item>
+        <item>@string/frutas</item>
+
+    </string-array>
+
+    <string-array name="animales">
+        <item>@string/ciervo</item>
+        <item>@string/estrella</item>
+        <item>@string/avestruz</item>
+        <item>@string/rinoceronte</item>
+        <item>@string/puercoespin</item>
+        <item>@string/salamandra</item>
+        <item>@string/leopardo</item>
+        <item>@string/facoquero</item>
+        <item>@string/suricato</item>
+        <item>@string/okapi</item>
+    </string-array>
+
+    <string-array name="deportes">
+        <item>@string/tenis</item>
+        <item>@string/baloncesto</item>
+        <item>@string/waterpolo</item>
+        <item>@string/badminton</item>
+        <item>@string/lacrosse</item>
+        <item>@string/atletismo</item>
+        <item>@string/curling</item>
+        <item>@string/sky</item>
+        <item>@string/golf</item>
+        <item>@string/futbol</item>
+    </string-array>
+
+    <string-array name="eñe_palabras">
+        <item>@string/anejo</item> <!--by the skin of my teeth - por los pelos-->
+        <item>@string/amanado</item> <!--by hook or by crook - por las buenas o por las malas-->
+        <item>@string/senuelo</item> <!--come hell or high water - caiga quien caiga-->
+        <item>@string/musarana</item> <!--hold your horses - para el carro-->
+        <item>@string/migrana</item> <!--fair and square - como tiene que ser-->
+        <item>@string/guadana</item> <!--do not give that jazz - no me vengas con cuentos-->
+        <item>@string/campana</item> <!--and to top it all - y encima para rematar-->
+        <item>@string/ponzona</item> <!--do not tease me - no me tomes el pelo-->
+        <item>@string/estano</item> <!--go fly a kite - vete a la porra-->
+        <item>@string/contrasena</item> <!--he gets on my nerves - me saca de quicio-->
+    </string-array>
+
+    <string-array name="famosos">
+        <item>@string/justin</item>
+        <item>@string/matt</item>
+        <item>@string/dwayne</item>
+        <item>@string/asthon</item>
+        <item>@string/timberlake</item>
+        <item>@string/arnold</item>
+        <item>@string/russel</item>
+        <item>@string/wynona</item>
+        <item>@string/leonardo</item>
+        <item>@string/george</item>
+    </string-array>
+
+    <string-array name="fruta">
+        <item>@string/pasion</item>
+        <item>@string/mano</item>
+        <item>@string/albaricoque</item>
+        <item>@string/chirimoya</item>
+        <item>@string/mango</item>
+        <item>@string/banana</item>
+        <item>@string/granada</item>
+        <item>@string/pomelo</item>
+        <item>@string/nispero</item>
+        <item>@string/higo</item>
+    </string-array>
+
+    <string-array name="lugares">
+        <item>@string/congo</item>
+        <item>@string/sanvicente</item>
+        <item>@string/sancristobal</item>
+        <item>@string/emiratos</item>
+        <item>@string/trinidad</item>
+        <item>@string/antigua</item>
+        <item>@string/papua</item>
+        <item>@string/liechtenstein</item>
+        <item>@string/turkmenistan</item>
+        <item>@string/sri</item>
+    </string-array>
+
+    <string-array name="peliculas">
+        <item>@string/starwars</item>
+        <item>@string/cincuenta</item>
+        <item>@string/amanecer</item>
+        <item>@string/dory</item>
+        <item>@string/resacon</item>
+        <item>@string/hijosdeloshombres</item>
+        <item>@string/eldiario</item>
+        <item>@string/brokeback</item>
+        <item>@string/million</item>
+        <item>@string/matrix</item>
+    </string-array>
+
+</resources>
