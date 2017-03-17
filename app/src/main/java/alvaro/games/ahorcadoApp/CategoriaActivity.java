@@ -1,4 +1,4 @@
-package antonio.femxa.ahorcadoproject;
+package alvaro.games.ahorcadoApp;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -18,8 +18,8 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_categoria);
-        this.spCategorias = (Spinner) findViewById(R.id.spinner_categorias);
+        setContentView(alvaro.games.ahorcadoApp.R.layout.activity_categoria);
+        this.spCategorias = (Spinner) findViewById(alvaro.games.ahorcadoApp.R.id.spinner_categorias);
 
         loadSpinnerCategorias();
 
@@ -30,7 +30,7 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
      */
     public void loadSpinnerCategorias() {
 
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.categorias, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, alvaro.games.ahorcadoApp.R.array.categorias, android.R.layout.simple_spinner_item);
 
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
@@ -53,7 +53,7 @@ public class CategoriaActivity extends Activity implements AdapterView.OnItemSel
 
         if(pos!=0)
         {
-            TypedArray array_categorias = getResources().obtainTypedArray(R.array.array_categorias);
+            TypedArray array_categorias = getResources().obtainTypedArray(alvaro.games.ahorcadoApp.R.array.array_categorias);
             CharSequence [] array_especifico = array_categorias.getTextArray(pos);
             array_categorias.recycle();
 

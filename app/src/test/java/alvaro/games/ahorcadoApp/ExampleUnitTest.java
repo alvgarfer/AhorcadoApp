@@ -1,4 +1,4 @@
-package antonio.femxa.ahorcadoproject;
+package alvaro.games.ahorcadoApp;
 
 import org.junit.Test;
 

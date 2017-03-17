@@ -10,7 +10,7 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/fondo_juego_3"
-    tools:context="antonio.femxa.ahorcadoproject.TableroActivity">
+    tools:context="alvaro.games.ahorcadoApp.TableroActivity">
 
     <ImageView
         android:layout_width="match_parent"

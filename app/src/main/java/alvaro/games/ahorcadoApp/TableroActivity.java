@@ -1,4 +1,4 @@
-package antonio.femxa.ahorcadoproject;
+package alvaro.games.ahorcadoApp;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -13,7 +13,7 @@ import android.widget.TextView;
 public class TableroActivity extends AppCompatActivity {
 
     private String palabra,palabraAux;
-    private int[] array_pics = {R.drawable.ic_cuerda, R.drawable.ic_cabeza, R.drawable.ic_cuerpo, R.drawable.ic_brazo, R.drawable.ic_brazos, R.drawable.ic_pierna};
+    private int[] array_pics = {alvaro.games.ahorcadoApp.R.drawable.ic_cuerda, alvaro.games.ahorcadoApp.R.drawable.ic_cabeza, alvaro.games.ahorcadoApp.R.drawable.ic_cuerpo, alvaro.games.ahorcadoApp.R.drawable.ic_brazo, alvaro.games.ahorcadoApp.R.drawable.ic_brazos, alvaro.games.ahorcadoApp.R.drawable.ic_pierna};
     private static int contador;
     private static int tamaño_palabra;
     private static int contador_aciertos;
@@ -21,7 +21,7 @@ public class TableroActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tablero);
+        setContentView(alvaro.games.ahorcadoApp.R.layout.activity_tablero);
 
         contador = 0;
         contador_aciertos = 0;
@@ -33,10 +33,10 @@ public class TableroActivity extends AppCompatActivity {
 
         tamaño_palabra = obtenerTamañoPalabra(palabraAux);
 
-        ImageView imageView = (ImageView) findViewById(R.id.imagenes_ahorcado);
+        ImageView imageView = (ImageView) findViewById(alvaro.games.ahorcadoApp.R.id.imagenes_ahorcado);
         imageView.setImageResource(array_pics[contador]);
 
-        View v = findViewById(R.id.textView2);
+        View v = findViewById(alvaro.games.ahorcadoApp.R.id.textView2);
         TextView textView = (TextView) v;
 
         textView.setText(palabra);
@@ -110,7 +110,7 @@ public class TableroActivity extends AppCompatActivity {
         }
         else
         {
-            ImageView imageView = (ImageView) findViewById(R.id.imagenes_ahorcado);
+            ImageView imageView = (ImageView) findViewById(alvaro.games.ahorcadoApp.R.id.imagenes_ahorcado);
             imageView.setImageResource(array_pics[contador]);
         }
     }

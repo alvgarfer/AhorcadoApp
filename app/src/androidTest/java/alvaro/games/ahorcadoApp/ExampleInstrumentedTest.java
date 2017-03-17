@@ -1,4 +1,4 @@
-package antonio.femxa.ahorcadoproject;
+package alvaro.games.ahorcadoApp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("antonio.femxa.ahorcadoproject", appContext.getPackageName());
+        assertEquals("alvaro.games.ahorcadoApp", appContext.getPackageName());
     }
 }

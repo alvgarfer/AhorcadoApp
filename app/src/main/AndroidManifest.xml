@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="antonio.femxa.ahorcadoproject">
+    package="alvaro.games.ahorcadoApp">
 
     <application
         android:allowBackup="true"
@@ -20,15 +20,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".TableroActivity"
+            android:name="alvaro.games.ahorcadoApp.TableroActivity"
             android:label="@string/title_activity_tablero"
             android:theme="@style/AppTheme.NoActionBar"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"/>
-        <activity android:name=".DerrotaActivity"
+        <activity android:name="alvaro.games.ahorcadoApp.DerrotaActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"/>
-        <activity android:name=".VictoriaActivity"
+        <activity android:name="alvaro.games.ahorcadoApp.VictoriaActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"></activity>
     </application>

@@ -1,4 +1,4 @@
-package antonio.femxa.ahorcadoproject;
+package alvaro.games.ahorcadoApp;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -14,12 +14,12 @@ public class DerrotaActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_derrota);
+        setContentView(alvaro.games.ahorcadoApp.R.layout.activity_derrota);
         palabra = getIntent().getStringExtra("palabra_clave");
 
-        Button button = (Button) findViewById(R.id.boton_derrota_inicio);
+        Button button = (Button) findViewById(alvaro.games.ahorcadoApp.R.id.boton_derrota_inicio);
 
-        TextView textView = (TextView) findViewById(R.id.text_palabra_oculta);
+        TextView textView = (TextView) findViewById(alvaro.games.ahorcadoApp.R.id.text_palabra_oculta);
 
         textView.setText(palabra);
 
